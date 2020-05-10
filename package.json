@@ -1,0 +1,59 @@
+{
+  "name": "final-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "cookie-parser": "~1.4.3",
+    "csv-parser": "^2.3.2",
+    "date-and-time": "^0.11.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-session": "^1.16.2",
+    "jquery": "^3.4.1",
+    "morgan": "~1.9.0",
+    "nodemailer": "^6.4.1",
+    "sendmail": "^1.6.1",
+    "session": "^0.1.0",
+    "uuid": "^3.3.3",
+    "vue": "^2.5.17",
+    "vue-smooth-scrollbar": "^0.1.2",
+    "vue2-google-maps": "^0.10.7"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-plugin-eslint": "^3.0.3",
+    "@vue/cli-service": "^3.12.0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
